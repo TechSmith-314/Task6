@@ -8,10 +8,10 @@ namespace Task6
         {
             int imagesInRow = 3;
             int allUserImages = 52;
-            int numberOfImagesRows = allUserImages / imagesInRow;
+            int numberOfFullImagesRows = allUserImages / imagesInRow;
             int remainsImages = allUserImages % imagesInRow;
 
-            Console.WriteLine($"Полностью заполненых рядов: {numberOfImagesRows}\nКоличество картинок неполного ряда: {remainsImages}");
+            Console.WriteLine($"Полностью заполненых рядов: {numberOfFullImagesRows}\nКоличество картинок неполного ряда: {remainsImages}");
         }
     }
 }
